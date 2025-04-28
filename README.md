@@ -33,18 +33,7 @@ The pipeline is designed to:
 - **Data Ingestion**: Snowpipe automatically imports data from S3 into Snowflake.
 - **Data Analysis**: Perform analysis with Power BI, and additional querying using AWS Athena and Redshift.
 
-## Setup Instructions
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/your-repo.git
-   cd your-repo
-2. Edit the configuration file:
-
-Rename config_template.conf to config.conf and update it with your credentials. then run this command in terminal
-  ```bash
-docker compose up -d --build
-```
 ## Architecture Diagram
 ![Architecture Diagram](https://github.com/user-attachments/assets/7cefc1a0-78a5-4185-858c-ef1e876f33fa)
 
