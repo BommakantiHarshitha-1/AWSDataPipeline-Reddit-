@@ -25,14 +25,6 @@ The pipeline is designed to:
 - **Docker**: Containerizes the Airflow webserver and other services for a consistent development and production environment.
 - **Power BI**: Data visualization tool to generate insights from the processed data.
 
-## Workflow
-
-- **Data Extraction**: Retrieve data from Reddit using the Reddit API.
-- **Data Transformation**: Clean and structure the extracted data with various transformations.
-- **Data Loading**: Store both raw and processed data in separate AWS S3 buckets.
-- **Data Ingestion**: Snowpipe automatically imports data from S3 into Snowflake.
-- **Data Analysis**: Perform analysis with Power BI, and additional querying using AWS Athena and Redshift.
-
 
 ## Architecture Diagram
 ![Architecture Diagram](https://github.com/user-attachments/assets/7cefc1a0-78a5-4185-858c-ef1e876f33fa)
